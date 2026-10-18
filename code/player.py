@@ -29,7 +29,7 @@ class Player(pygame.sprite.Sprite):
         # Gravity and Jump
         self.gravity = 800
         self.velocity_y = 0
-        self.jump_speed = 300
+        self.jump_speed = 250
         self.on_ground = False
 
         # Coyote jump

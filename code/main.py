@@ -25,7 +25,7 @@ class Game:
             CollisionSprites((obj.x, obj.y), pygame.Surface((obj.width, obj.height)),self.collision_sprites_groups)
 
         # Object
-        self.player = Player((120,50), self.all_sprites_groups, self.collision_sprites_groups)
+        self.player = Player((5*16,600), self.all_sprites_groups, self.collision_sprites_groups)
         self.camera = Camera(WINDOW_WIDHT, WINDOW_HEIGTH)
 
     def run(self):
