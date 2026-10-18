@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="25">
  <tileset firstgid="1" source="tilesheets.tsx"/>
- <layer id="1" name="ground" width="30" height="20" visible="0">
+ <layer id="1" name="ground" width="30" height="20">
   <data encoding="csv">
 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
@@ -31,19 +31,19 @@
   <object id="5" x="32.125" y="96" width="15.875" height="16"/>
   <object id="6" x="0.125" y="112" width="15.875" height="32.125"/>
   <object id="7" x="16" y="128" width="303.875" height="16"/>
-  <object id="9" x="64.125" y="80.125" width="207.625" height="15.875"/>
+  <object id="9" x="64.125" y="80" width="207.625" height="16"/>
   <object id="10" x="256.25" y="64.25" width="15.875" height="15.875"/>
   <object id="11" x="272" y="48.125" width="207.875" height="16"/>
   <object id="12" x="464" y="0" width="15.875" height="48.25"/>
   <object id="14" x="464" y="144" width="15.875" height="79.75"/>
   <object id="15" x="431.875" y="176" width="32.125" height="16"/>
   <object id="16" x="416.125" y="208.125" width="48.125" height="15.625"/>
-  <object id="17" x="320.25" y="240.125" width="79.625" height="15.75"/>
-  <object id="18" x="192.125" y="224" width="79.875" height="16.375"/>
+  <object id="17" x="320.25" y="240" width="79.625" height="15.875"/>
+  <object id="18" x="192.125" y="224" width="79.875" height="16"/>
   <object id="19" x="192" y="192" width="16" height="32"/>
-  <object id="20" x="0" y="192.125" width="191.875" height="15.875"/>
-  <object id="21" x="0.125" y="288.125" width="479.625" height="15.75"/>
-  <object id="22" x="320" y="128" width="15.8184" height="31.4549"/>
+  <object id="20" x="0" y="192" width="191.875" height="16"/>
+  <object id="21" x="0.125" y="288" width="479.625" height="15.875"/>
+  <object id="22" x="320" y="128" width="15.8184" height="32"/>
   <object id="23" x="320.182" y="160.182" width="79.6364" height="15.8182"/>
  </objectgroup>
 </map>
