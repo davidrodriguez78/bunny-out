@@ -26,7 +26,7 @@ class Game:
 
         # Object
         self.player = Player((5*16,600), self.all_sprites_groups, self.collision_sprites_groups)
-        self.camera = Camera(WINDOW_WIDHT, WINDOW_HEIGTH, 1440, 672)
+        self.camera = Camera(WINDOW_WIDHT, WINDOW_HEIGTH, 1600, 672)
 
     def run(self):
         while self.running:
